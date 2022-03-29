@@ -14,7 +14,7 @@ const Card = () => {
       />
 
       <p className="text-text-primary text-2xl font-bold">Ferrari 488</p>
-      <p className="text-text-secondary text-md w-full text-center"> <AiOutlineFieldTime />Quedan 20hs 59min 30seg</p>
+      <AiOutlineFieldTime /><p className="text-text-secondary text-md inline-block">Quedan 20hs 59min 30seg</p>
 
       <div className="flex flex-row justify-evenly w-full">
         <p className="font-bold text-xl">Puja Actual</p>
