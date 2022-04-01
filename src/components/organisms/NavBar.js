@@ -10,7 +10,7 @@ import Button from "../atoms/Buttons/Button";
 export const NavBar = () => {
   let [openNav, setOpenNav] = useState(false);
   return (
-    <div className="fixed z-20 top-0 left-0 w-full shadow-md">
+    <div className="sticky z-20 top-0 left-0 w-full shadow-md">
       <div className="md:flex items-center justify-between bg-[#3196DA] py-2 md:px-10 px-7">
         <div className="flex items-center text-2xl cursor-pointer ">
           <img
