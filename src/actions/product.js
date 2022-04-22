@@ -47,7 +47,7 @@ export const purchaseProduct = (highestBid, username, email) => {
   const unit_price = highestBid
  
   return async (dispatch) => {
-    const res = await fetchConToken(`payment/`, { unit_price, username, email },"POST");
+    const res = await fetchConToken(`payment`, { unit_price, username, email },"POST");
 
     const body = await res.json();
 

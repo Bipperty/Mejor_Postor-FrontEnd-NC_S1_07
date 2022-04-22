@@ -34,7 +34,7 @@ const CardProduct = (props) => {
         <h3 className="text-xl font-bold text-text-primary">{name}</h3>
         <div className="flex flex-row mt-2 space-x-2 text-text-secondary">
           <AiOutlineFieldTime />
-          <span className="text-sm">Termina el: {endAt2}</span>
+          <span className="text-sm">Termina el: {endAt}</span>
         </div>
       </div>
 
